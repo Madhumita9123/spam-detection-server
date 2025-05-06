@@ -111,33 +111,33 @@ A REST API for a mobile app that allows users to identify spam calls and search 
     "email": "john@example.com"
 }
 ```
-Production Considerations
-  While this is a development implementation, production-ready features include:
-    JWT authentication
-    Password hashing
-    Input validation
-    Rate limiting (to be implemented)
-    Proper error handling
-    Database indexing for performance
+# Production Considerations
+## While this is a development implementation, production-ready features include:
+- JWT authentication
+- Password hashing
+- Input validation
+- Rate limiting (to be implemented)
+- Proper error handling
+- Database indexing for performance
 
-Assumptions
-  Phone contacts are automatically imported (implementation not required)
-  Phone numbers are validated to be in E.164 format
-  All requests require authentication except registration and login
-  Email is only visible to contacts of registered users
+# Assumptions
+- Phone contacts are automatically imported (implementation not required)
+- Phone numbers are validated to be in E.164 format
+- All requests require authentication except registration and login-
+- Email is only visible to contacts of registered users
 
-Future Enhancements
-  Implement rate limiting
-    Add API documentation with Swagger/OpenAPI
-    Implement caching for frequent searches
-    Add phone number validation service integration
-    Implement bulk contact import
-    Add admin dashboard for spam management
+# Future Enhancements
+## Implement rate limiting
+- Add API documentation with Swagger/OpenAPI
+- Implement caching for frequent searches
+- Add phone number validation service integration
+- Implement bulk contact import
+- Add admin dashboard for spam management
     
 
-This README provides:
-1. Clear installation instructions
-2. API endpoint documentation
-3. Production considerations
-4. Future enhancement ideas
+# This README provides:
+- 1. Clear installation instructions
+- 2. API endpoint documentation
+- 3. Production considerations
+- 4. Future enhancement ideas
 
