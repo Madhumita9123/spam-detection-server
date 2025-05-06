@@ -110,7 +110,7 @@ A REST API for a mobile app that allows users to identify spam calls and search 
     "password": "SecurePass123!",
     "email": "john@example.com"
 }
-
+```
 Production Considerations
   While this is a development implementation, production-ready features include:
     JWT authentication
